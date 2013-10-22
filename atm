@@ -12,7 +12,7 @@ void main()
     	printf("Lutfen, Hesap Numaranızı Giriniz: "); //kart olmadıgı için hesap numarasıyla giris yaptım
         scanf("%d",&no);
 	}
-		 while(no!=123465)
+		 while(no!=123465);
 
 		do 
 	{
