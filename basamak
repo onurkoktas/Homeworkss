@@ -1,0 +1,27 @@
+#include <stdio.h>
+void main()
+{
+	
+	int a,b,c,d,sayi;
+	printf("lutfen sayiyi giriniz:");
+	scanf("%d",&sayi);
+	
+	a=sayi/1000;
+	b=(sayi-(a*1000))/100;
+	c=(sayi-(a*1000)-(b*100))/10;
+	d=(sayi-(a*1000)-(b*100)-(c*10));
+	
+	printf("%d kadar binler basamagi\n %d kadar yuzler basamagi\n %d kadar onlar basamagi\n %d kadar birler basamagi vardir",a,b,c,d);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
